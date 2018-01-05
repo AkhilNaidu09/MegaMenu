@@ -40,7 +40,7 @@ nav
 	padding:10px 15px;
 	font-weight: 800;
 	transition: 200ms;
-	border-top:1px solid whitesmoke;
+	border-top:1px solid #e6e6e6e0;
 }
 .left_box
 {
@@ -54,6 +54,7 @@ nav
 }
 .slide_right
 {
+	margin-top: -1px;
 	position: absolute;
 	margin-left: 185px;
 	top: 0px;
@@ -93,7 +94,7 @@ color: #636363;
 	width: 15px;
 	height: 15px;
 	background: whitesmoke;
-	margin: -9px auto 10px;
+	margin: -9px 9px 10px;
 	-webkit-transform: rotate(45deg);
 	border: 1px solid #adadad;
 	border-bottom: none;
