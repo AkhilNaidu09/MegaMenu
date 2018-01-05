@@ -1,5 +1,5 @@
 body {
-	background: #fff;
+	background: #efefef9c;
 	margin: 0px;
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
@@ -47,12 +47,12 @@ nav {
 	position: relative;
 	display: block;
 	border-style: solid;
-    border-color: #e8e8e8;
-    border-width: 0 1px 1px;
-    padding: 15px 10px 15px 15px;
-    background: #edf9f9;
-    position: relative;
-    display: block;
+	border-color: #e8e8e8;
+	border-width: 0 1px 1px;
+	padding: 15px 10px 15px 15px;
+	background: #edf9f9;
+	position: relative;
+	display: block;
 }
 
 .left_box {
@@ -131,3 +131,11 @@ nav {
 	padding-bottom: 15px;
 	text-transform: uppercase;
 }
+
+.box-heading span+span {
+	float: right;
+	width: 15px;
+	height: 14px;
+	padding: 25px 0;
+}
+
